@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "type": "vscode-edge-devtools.debug",
+      "name": "Open Edge DevTools",
+      "request": "attach",
+      "url": "http://localhost:5500",
+      "presentation": {
+        "hidden": true
+      }
+    },
+    {
+      "type": "msedge",
+      "name": "http://localhost:5500",
+      "request": "launch",
+      "url": "http://localhost:5500"
+    }
+  ],
+}
